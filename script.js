@@ -56,7 +56,8 @@ function moveZombies() {
         ) {
             clearInterval(gameInterval);
             clearInterval(zombieIntervalId);
-            alert('Game Over! Your score is ' + score + 'Rate The Project https://forms.gle/3p8RZ2XL3rBfemNS6');
+            alert('Game Over! Your score is ' + score + ' Rate The Project:
+                  https://forms.gle/3p8RZ2XL3rBfemNS6');
             document.location.reload();
         }
     });
